@@ -1,0 +1,28 @@
+# Run logs and spool output (never committed)
+output/
+*.log
+*.lst
+*.tmp
+*.out
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials and connection files
+.env
+.env.*
+*.pem
+*.key
+tnsnames.ora
+sqlnet.ora
+cwallet.sso
+ewallet.p12
+wallet/
+credentials*
+connection*.txt
